@@ -15,3 +15,4 @@
 *.exe
 *.out
 *.app
+*.sw[a-z]
