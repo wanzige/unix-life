@@ -5,6 +5,7 @@
 #
 #     ./fp ./life start
 #
+DELAY=0.1
 TMP=tmp
 FUNC=$1
 INITIAL=$2
@@ -16,6 +17,7 @@ echo "$LAST_VAL" > $TMP
 
 while :
 do
+    sleep $DELAY
     VAL=`$FUNC < $TMP`
     echo
     echo "$VAL"
