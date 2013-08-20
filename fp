@@ -6,7 +6,7 @@
 #     ./fp ./life start
 #
 DELAY=0.1
-TMP=tmp
+TMP=`mktemp`
 FUNC=$1
 INITIAL=$2
 echo $FUNC
